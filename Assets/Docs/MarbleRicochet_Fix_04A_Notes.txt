@@ -1,0 +1,27 @@
+
+MARBLE RICOCHET — FIX 04A
+
+Оправя грешката:
+Assets/Editor/RicochetPopSceneBuilder.cs(95,17): error CS1061:
+'RPGameManager' does not contain a definition for 'winText'
+
+Причина:
+В проекта е останал старият RicochetPopSceneBuilder.cs от предишната версия.
+Той вече не съвпада с новия RPGameManager от Marble Ricochet Update 04.
+
+Какво прави fix-ът:
+- Презаписва стария RicochetPopSceneBuilder.cs с безопасен disabled stub.
+- Старото меню Tools > Ricochet Pop вече няма да build-ва нищо.
+- Трябва да използваш само:
+  Tools > Marble Ricochet > Replace Project With Marble Ricochet
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Replace Project With Marble Ricochet
+7) Yes, replace it.
+8) Play.

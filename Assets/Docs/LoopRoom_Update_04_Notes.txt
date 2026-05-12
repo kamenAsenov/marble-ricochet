@@ -1,0 +1,61 @@
+
+LOOP ROOM — BEAUTY + DIFFICULTY UPDATE 04
+
+Цел:
+Да направи играта по-красива, по-ясна и по-справедлива в началото.
+
+Какво добавя:
+- По-красив warm corridor:
+  - tiled floor
+  - baseboards
+  - wall trims
+  - по-добри врати
+  - door handles
+  - number plates
+  - картина
+  - пейка
+  - side table
+  - по-добро растение
+  - glowing ceiling panels
+
+- По-ясни anomalies:
+  EASY:
+  - Red glowing box
+  - Extra door
+  - Huge plant
+  - Cold blue ceiling light
+
+  MEDIUM:
+  - Shadow figure
+  - Floating frame
+  - Brass bar across hallway
+  - Bench moved to middle
+
+  HARD:
+  - Dark end wall
+  - Tiny white object
+  - Lower ceiling light
+  - Thin shadow line
+
+- Difficulty curve:
+  Loop 1: винаги normal, за да разбере играчът механиката.
+  Loop 2-4: само easy anomalies.
+  Loop 5-9: easy + medium anomalies.
+  Loop 10+: easy + medium + hard anomalies.
+
+- UI:
+  Добавя difficulty label: EASY / MEDIUM / HARD.
+  Game Over показва каква е била реалната anomaly state.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай папката Assets върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Tools > Loop Room > Build MVP Scene
+7) Yes, build it
+8) Play
+
+Важно:
+Този update rebuild-ва цялата сцена. Това е желано.

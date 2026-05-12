@@ -1,0 +1,67 @@
+
+MARBLE RICOCHET — APP STORE POLISH UPDATE 07
+
+Продуктова цел:
+Да приближим играта до реален App Store / Google Play продукт, без random features.
+
+Какво НЕ прави:
+- Не добавя нови сложни механики.
+- Не добавя нови валути.
+- Не добавя агресивни реклами.
+- Не чупи core gameplay loop-а.
+
+Какво прави:
+
+1) Mobile readability pass
+- HUD текстовете са по-малки и по-разделени.
+- Win screen е по-чист.
+- Menu spacing е подобрен.
+- Shop spacing е подобрен.
+- Бутоните са reposition-нати за portrait/mobile.
+
+2) Slingshot usability
+- Full power вече се достига с още по-късо дърпане.
+- Топката започва по-нагоре чрез новите level data.
+- Това прави играта по-удобна на телефон.
+
+3) Първи истински level pack
+- Първите 30 нива вече са ръчно проектирани.
+- Level curve:
+  1-5: basic shot clarity
+  6-10: rail/bounce learning
+  11-15: two-shot and lanes
+  16-20: bumpers
+  21-25: breakable glass
+  26-30: mixed mastery
+- След това има generated challenge levels до 150.
+
+4) Shop / rewarded ads foundation polish
+- Shop UI е по-чист.
+- Rewarded ads остават placeholder.
+- Това е нарочно: първо economy/use-case, после SDK.
+- Моделът е:
+  optional rewarded ads
+  cosmetics
+  hints
+  no forced ads yet
+
+5) App Store product thinking
+- Фокусът е върху първите 60 секунди.
+- Играчът трябва веднага да разбере:
+  pull, release, break glass, get stars, next level.
+- Това е по-важно от adding features.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Apply App Store Polish Update 07
+7) OK.
+8) Play.
+
+Важно:
+Ако искаш новите 30 ръчно направени нива със сигурност да се заредят от Level 1,
+може след apply да натиснеш Reset в менюто.

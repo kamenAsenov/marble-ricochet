@@ -1,0 +1,29 @@
+
+LOOP ROOM — AUDIO FIX UPDATE 03A
+
+Какво прави:
+- Вдига ambience звука.
+- Вдига звука при правилен/грешен избор.
+- Добавя test звук с клавиш T.
+- В Console трябва да се изпише:
+  Audio test: T pressed, test sound played.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай папката Assets върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) НЕ е задължително да rebuild-ваш сцената, но ако искаш:
+   Tools > Loop Room > Build MVP Scene
+7) Play.
+
+Как се тества:
+- Натисни Play.
+- Натисни T.
+- Трябва да чуеш кратък beep.
+- Ако не чуеш нищо:
+  1) Провери дали Windows/слушалките не са mute.
+  2) Провери дали Unity Game tab не е mute.
+  3) Провери дали има AudioListener на Main Camera.
+  4) Провери Console за грешки.

@@ -1,0 +1,59 @@
+
+LOOP ROOM — ATMOSPHERE + GAMEPLAY UPDATE 03
+
+Какво добавя:
+- По-добра структура на сцената:
+  ENVIRONMENT
+  ANOMALIES
+  LIGHTS
+  SYSTEMS
+  Canvas_UI
+
+- Повече environment детайли:
+  врати
+  дръжки
+  пейка
+  саксия/растение
+  картина
+  таванни светлини
+
+- Повече anomalies:
+  1) Shadow figure
+  2) Red block
+  3) Extra door
+  4) Extra ceiling light
+  5) Floating frame
+  6) Dark end wall
+  7) Tall plant
+  8) Metal bar blocking hall
+
+- Gameplay polish:
+  Current loop
+  Streak counter
+  Short correct feedback
+  Game over remains
+  Restart with R
+
+- Audio:
+  Procedural ambient hum
+  Correct/incorrect sting sounds
+  Tension increases slightly with loops
+
+- Screen mood:
+  Subtle dark overlay
+  Slight danger tint when anomaly/game over
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай папката Assets върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Tools > Loop Room > Build MVP Scene
+7) Yes, build it
+8) Play
+
+Как се играе:
+- Ако видиш anomaly: върни се назад към началото.
+- Ако не видиш anomaly: продължи напред до края.
+- И двата trigger-а те връщат в началото, но значат различно решение.

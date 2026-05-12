@@ -1,0 +1,41 @@
+
+RICOCHET POP — PROJECT REPLACE 01
+
+Новата игра заменя Loop Room концепцията.
+
+Име:
+RICOCHET POP
+
+Концепция:
+Aim. Bounce. Pop them all.
+
+Gameplay:
+- Дърпаш/целиш с мишка или touch.
+- Пускаш.
+- Топката рикошира в стените.
+- Целта е да спука всички targets.
+- Има 60 генерирани нива.
+- Нивата постепенно стават по-сложни.
+
+Защо е по-подходяща:
+- лесна за разбиране;
+- може да се играе от деца и възрастни;
+- позволява много нива;
+- не зависи от реалистична графика;
+- много по-mobile friendly;
+- лесна за polish с цветове, particles, trails, skins и нови obstacles.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Ricochet Pop > Replace Project With Ricochet Pop
+7) Yes, replace it.
+8) Play.
+
+Управление:
+- Mouse/touch drag = aim.
+- Release = shoot.

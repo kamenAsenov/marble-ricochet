@@ -1,0 +1,56 @@
+
+MARBLE RICOCHET — UI CLEANUP UPDATE 09
+
+Problem seen from screenshots:
+- Win screen is too crowded.
+- Next level preview overlaps reward/retry area.
+- Main menu tutorial text and Reset are too close.
+- Gameplay onboarding overlaps bottom hint text.
+- HUD is readable but too noisy.
+
+What this update fixes:
+1) Win screen
+- Smaller title/stats/reward fonts.
+- More vertical spacing.
+- Shorter next-level preview text.
+- Retry / Next / Menu buttons moved lower with cleaner spacing.
+
+2) Main menu
+- Title/subtitle/progress moved slightly up.
+- Continue/New Game/Shop spacing improved.
+- Tutorial text smaller.
+- Reset moved lower and reduced.
+
+3) Gameplay
+- Onboarding toast moved and reduced.
+- When onboarding is visible, the normal bottom hint is hidden.
+- This prevents duplicate overlapping text.
+
+4) HUD
+- Smaller top labels.
+- Smaller coins/streak/hints.
+- Smaller progress bar.
+- Hint button repositioned.
+
+5) Shop
+- Smaller shop text.
+- Smaller reward/ad placeholder text.
+- Buttons repositioned.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity compile.
+6) Run:
+   Tools > Marble Ricochet > Apply UI Cleanup Update 09
+7) OK.
+8) Play.
+
+What to test:
+- Main menu no longer overlaps.
+- Level 1 onboarding does not overlap bottom hint.
+- Win screen reward/next/retry area is readable.
+- Shop still works.
+- Buttons still work.

@@ -1,0 +1,27 @@
+
+MARBLE RICOCHET — NEW INPUT SYSTEM FIX 02B
+
+Оправя runtime грешката:
+InvalidOperationException: You are trying to read Input using the UnityEngine.Input class...
+
+Причина:
+Проектът е на New Input System, а EventSystem беше със стария StandaloneInputModule.
+Освен това aiming input-ът в RPGameManager вече е направен съвместим с New Input System.
+
+Какво сменя:
+- EventSystem вече използва InputSystemUIInputModule, когато проектът е на New Input System.
+- RPGameManager вече не използва UnityEngine.Input при New Input System.
+- Menu button click трябва да работи.
+- Aim/release трябва да работи с mouse и touch.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Replace Project With Marble Ricochet
+7) Yes, replace it.
+8) Play.
+9) Натисни PLAY.

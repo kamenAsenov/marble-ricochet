@@ -1,0 +1,37 @@
+
+MARBLE RICOCHET — RAIL CLARITY UPDATE 11
+
+Tester feedback:
+The game is fun, but the player did not understand that the outer walls/edges are bounce rails.
+
+Product interpretation:
+This is not just a visual issue. It is a gameplay clarity / affordance issue.
+If players do not understand rails bounce the marble, they will play the game incorrectly.
+
+What this update does:
+1) Makes the table rails visually clearer.
+2) Adds permanent visible bounce rail objects around the play area.
+3) Adds gold rail edges.
+4) Adds subtle blue rail hint strips to communicate "this is interactive".
+5) Adds corner markers so the board boundary is easier to read.
+6) Updates early hint text to mention rails.
+7) Updates the runtime wall prefab material to be more visible.
+8) Does not add new mechanics.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip this package.
+3) Copy the Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Rail Clarity Update 11
+7) OK.
+8) Play.
+
+What to test:
+1) Are the outer rails clearly visible?
+2) Does Level 1 teach that rails bounce?
+3) Does Level 2 make it obvious that side rails matter?
+4) Does the table now look more like a bounce puzzle table?
+5) Are the rails visible on a phone screenshot?

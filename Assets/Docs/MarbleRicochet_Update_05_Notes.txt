@@ -1,0 +1,47 @@
+
+MARBLE RICOCHET — PROGRESSION + RETENTION UPDATE 05
+
+Този update прави две неща:
+1) Оправя стария RicochetPopSceneBuilder конфликт.
+2) Добавя истински progression/retention слой.
+
+Какво добавя:
+- Continue button.
+- New Game button.
+- Reset progress button.
+- Retry for 3 stars button.
+- Save на coins чрез PlayerPrefs.
+- Save на total stars.
+- Save на best stars per level.
+- Save на highest unlocked level.
+- Perfect streak се пази.
+- Main menu показва:
+  Level / Stars / Coins.
+- Win screen показва:
+  current stars
+  best stars
+  coins earned
+  new best / replay prompt.
+
+Психологически защо е важно:
+- Continue намалява триенето: играчът директно продължава.
+- Best stars създава желание за retry.
+- Highest unlocked level дава усещане за прогрес.
+- Coins са soft reward и подготвят skins/shop.
+- Retry for 3 stars прави replay loop без да насилва играча.
+- Progress в менюто напомня "имам започнато нещо".
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Apply Progression Update 05
+7) OK.
+8) Play.
+
+Важно:
+Не е нужно да пускаш Replace Project, ако текущата сцена вече е ок.
+Пускаш само Apply Progression Update 05.

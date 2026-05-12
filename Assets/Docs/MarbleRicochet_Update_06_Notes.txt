@@ -1,0 +1,44 @@
+
+MARBLE RICOCHET — MOBILE LAYOUT + SHOP/ADS UPDATE 06
+
+Оправя:
+- UI-то вече има повече въздух.
+- Намалени са размери на текстове, които се застъпваха.
+- HUD е разделен на по-ясни блокове.
+- Win screen е пренареден.
+- Топката започва по-нагоре: z -5.35 вместо около -6.15.
+- Max pull distance е намален на 2.15, за да можеш да стигаш full power с по-късо дърпане.
+
+Добавя:
+- Shop button.
+- Shop panel.
+- 5 ball skins:
+  Classic Marble
+  Gold Marble
+  Black Pearl
+  Ocean Glass
+  Ruby Core
+- Buy/select skin с coins.
+- Watch Ad +50 coins placeholder.
+- Watch Ad +1 hint placeholder.
+- Hint token system.
+- Hint button in-game.
+- Hints counter.
+- Подготовка за реални rewarded ads SDK по-късно.
+
+Важно:
+Рекламите са placeholder, не реален SDK.
+Това е правилната архитектура:
+първо изграждаме economy/use-cases,
+после връзваме Unity Ads/AdMob.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Apply Mobile Layout Shop Ads Update 06
+7) OK.
+8) Play.

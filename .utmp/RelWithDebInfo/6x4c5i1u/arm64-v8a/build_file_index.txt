@@ -1,0 +1,2 @@
+C:\Users\kamen\Desktop\LoopRoom\Loop Room\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\kamen\Desktop\LoopRoom\Loop Room\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

@@ -1,0 +1,36 @@
+
+LOOP ROOM — MOBILE UX UPDATE 07
+
+Цел:
+Да превърне prototype-а в mobile-ready game UX.
+
+Какво добавя:
+- Main Menu
+- Start Game бутон
+- How to Play екран
+- Pause меню
+- Settings екран
+- Sensitivity slider
+- Sound toggle
+- Mobile controls toggle
+- Mobile touch controls:
+  ляв joystick за движение
+  дясна половина за look/camera
+- Pause с Escape в editor/PC режим
+- Tab unlock mouse в PC режим
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай папката Assets върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) НЕ пускай Build MVP Scene.
+7) Пусни:
+   Tools > Loop Room > Apply Mobile UX Update 07
+8) OK.
+9) Play.
+
+Важно:
+Този update е upgrade върху текущата сцена.
+Не rebuild-ва коридора.

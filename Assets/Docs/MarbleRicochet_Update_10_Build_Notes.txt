@@ -1,0 +1,68 @@
+
+MARBLE RICOCHET — BUILD & RELEASE PREP UPDATE 10
+
+Purpose:
+This update prepares the project for the first real Android/iOS test build.
+It does not add gameplay features.
+
+What it adds:
+- Mobile runtime settings object.
+- Target FPS = 60.
+- Never sleep while playing.
+- Safe area helper script.
+- Build info object.
+- App icon placeholder texture.
+- Disabled old Ricochet Pop builder remains disabled.
+- Project settings applier.
+
+What the Unity tool configures:
+- Product name: Marble Ricochet.
+- Company name: Indie Marble Studio.
+- Version: 0.1.0.
+- Android package id: com.indiemarblestudio.marblericochet.
+- iOS bundle id: com.indiemarblestudio.marblericochet.
+- Portrait orientation.
+- Android version code: 1, where supported.
+- iOS build number: 1, where supported.
+- Splash screen enabled.
+- Runtime target frame rate: 60.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip this package.
+3) Copy the Assets folder over your Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Build Prep Update 10
+7) OK.
+8) Save the project.
+
+What to test after applying:
+1) Play in Unity.
+2) Main menu still opens.
+3) Continue/New Game/Shop still work.
+4) Level 1 still plays.
+5) Win screen still works.
+6) No Console errors.
+
+First Android build checklist:
+1) File > Build Profiles or File > Build Settings.
+2) Select Android.
+3) Switch Platform if needed.
+4) Player Settings:
+   - Product Name should be Marble Ricochet.
+   - Orientation should be Portrait.
+   - Package name should be com.indiemarblestudio.marblericochet.
+5) Add current scene to Scenes In Build.
+6) Build APK or AAB.
+
+Soft launch warning:
+Do not upload to App Store / Google Play yet.
+First test on a real Android phone:
+- touch aiming
+- portrait layout
+- UI overlaps
+- performance
+- shop buttons
+- rewarded ad placeholders

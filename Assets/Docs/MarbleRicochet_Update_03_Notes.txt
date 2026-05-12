@@ -1,0 +1,60 @@
+
+MARBLE RICOCHET — JUICE + SLINGSHOT UPDATE 03
+
+Това е големият quality update.
+
+Какво добавя:
+1) Slingshot aiming:
+   - дърпаш назад от топката;
+   - пускаш;
+   - силата зависи от това колко си дръпнал.
+
+2) Ricochet preview:
+   - показва няколко бъдещи bounce segment-а;
+   - прави играта по-ясна за деца и възрастни.
+
+3) Handmade tutorial levels:
+   - първите 20 нива вече са ръчно проектирани;
+   - учат играча постепенно:
+     straight shot
+     first bounce
+     multiple targets
+     walls
+     bumpers
+     breakable glass
+
+4) Нови objects:
+   - Normal wall
+   - Metal bumper
+   - Breakable glass wall
+   - Glass targets
+
+5) Juice/feedback:
+   - glass pop particles;
+   - hit sound;
+   - shoot sound;
+   - bumper sound;
+   - win sound;
+   - small camera shake;
+   - по-добър win panel със stars.
+
+6) Повече нива:
+   - 20 handmade tutorial levels;
+   - generated challenge levels до 100.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Replace Project With Marble Ricochet
+7) Yes, replace it.
+8) Play.
+
+Важно:
+Управлението вече е slingshot:
+- натискаш и дърпаш НАЗАД от топката;
+- preview-то показва рикошета;
+- пускаш, за да стреляш.

@@ -1,0 +1,18 @@
+
+LOOP ROOM — AUDIO CLEANUP UPDATE 03B
+
+Какво прави:
+- Маха test звука с клавиш T.
+- Оставя ambience звука.
+- Оставя correct/wrong decision звуците.
+- Маха testClip и Update test проверката от HorrorAudioManager.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай папката Assets върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Play.
+
+Не е нужно да пускаш Tools > Loop Room > Build MVP Scene, защото сменяме само audio script-а.

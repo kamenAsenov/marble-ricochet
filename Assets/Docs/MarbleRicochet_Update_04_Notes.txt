@@ -1,0 +1,74 @@
+
+MARBLE RICOCHET — PREMIUM ENGAGEMENT UPDATE 04
+
+Цел:
+Да направи играта по-premium и по-ангажираща, без dark patterns.
+
+Психологически engagement принципи, които прилагаме:
+
+1) Ясна цел
+Играчът винаги знае какво иска:
+- счупи всички glass targets;
+- направи го под par;
+- вземи 3 stars.
+
+2) Immediate reward
+Всеки успешен удар дава:
+- звук;
+- particle feedback;
+- screen shake;
+- изчезващ target;
+- progress към завършване.
+
+3) Near-perfect motivation
+Shots / Par кара играча да си каже:
+"Мога да го мина по-добре."
+
+4) Streak
+Perfect streak добавя лека дългосрочна мотивация:
+"Още едно ниво, да не си прекъсна серията."
+
+5) Coins
+Coins са soft reward. Засега не купуват нищо, но подготвят skins/shop update:
+- marble skins;
+- table themes;
+- aim line styles.
+
+6) Premium UI
+По-тъмен, по-изчистен UI:
+- gold accent;
+- premium panels;
+- по-добър win screen;
+- progress bar;
+- coins/streak HUD.
+
+7) Short session loop
+Нивата са кратки:
+aim -> shoot -> break -> stars -> next.
+Това е правилното "one more level" усещане.
+
+Какво добавя Update 04:
+- Premium main menu.
+- Premium win panel.
+- Coins counter.
+- Perfect streak.
+- Progress slider.
+- Better reward text.
+- Better motivation lines:
+  Perfect shot!
+  Perfect streak!
+  Beautiful clear!
+- По-добра wood/gold маса.
+- По-премиум цветове.
+- Запазва slingshot, preview, glass pop, bumpers, breakable glass.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Replace Project With Marble Ricochet
+7) Yes, replace it.
+8) Play.

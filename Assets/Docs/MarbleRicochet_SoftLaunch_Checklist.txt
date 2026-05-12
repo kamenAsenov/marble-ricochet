@@ -1,0 +1,36 @@
+
+MARBLE RICOCHET — SOFT LAUNCH CHECKLIST
+
+Before soft launch:
+[ ] Test 30 handmade levels on phone.
+[ ] Check if every level can be completed.
+[ ] Check if early levels are easy enough.
+[ ] Check all buttons on small phone screen.
+[ ] Check UI with Android notch / status bar.
+[ ] Check if slingshot pull feels comfortable.
+[ ] Check if shop opens and closes correctly.
+[ ] Check if skins apply after selecting.
+[ ] Check if coins save after closing app.
+[ ] Check if Continue starts at the correct unlocked level.
+[ ] Check if Reset progress works.
+[ ] Replace app icon placeholder.
+[ ] Replace Unity splash if needed / permitted by license.
+[ ] Add real rewarded ads SDK only after gameplay is stable.
+[ ] Add privacy policy before store upload.
+[ ] Add store screenshots.
+[ ] Add store description.
+[ ] Prepare first test group.
+
+Do not add before first test build:
+[ ] Multiplayer.
+[ ] Leaderboards.
+[ ] Daily challenge.
+[ ] More currencies.
+[ ] Aggressive forced ads.
+[ ] Too many new mechanics.
+
+Best monetization direction:
+- Free to play.
+- Optional rewarded ads for coins/hints.
+- Cosmetic skins.
+- Possible premium remove-ads pack later.

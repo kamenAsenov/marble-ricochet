@@ -1,0 +1,23 @@
+
+MARBLE RICOCHET — FIX 02A
+
+Оправя грешката:
+Light does not contain a definition for 'rotation'
+
+Причина:
+В builder-а беше написано:
+light.rotation = ...
+
+Правилното е:
+lightObject.transform.rotation = ...
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Replace Project With Marble Ricochet
+7) Yes, replace it.
+8) Play.

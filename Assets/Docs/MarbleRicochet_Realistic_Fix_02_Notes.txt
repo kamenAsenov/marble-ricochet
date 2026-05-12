@@ -1,0 +1,40 @@
+
+MARBLE RICOCHET — REALISTIC FIX 02
+
+Какво оправя:
+- Менюто вече трябва да се цъка.
+- Добавен е EventSystem.
+- Builder-ът е сменен към ново меню:
+  Tools > Marble Ricochet > Replace Project With Marble Ricochet
+
+Какво променя визуално:
+- Сменя името на Marble Ricochet.
+- Посоката вече е по-реалистична:
+  дървена маса/плот
+  тъмни rubber rails
+  бяла marble ball
+  стъклени targets
+  по-топла светлина
+  по-малко neon arcade усещане
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай Assets папката върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Пусни:
+   Tools > Marble Ricochet > Replace Project With Marble Ricochet
+7) Yes, replace it.
+8) Play.
+9) Натисни PLAY в менюто.
+
+Управление:
+- Mouse/touch drag = aim.
+- Release = shoot.
+
+Важно:
+Не използвай старото:
+Tools > Ricochet Pop > ...
+Ползвай новото:
+Tools > Marble Ricochet > Replace Project With Marble Ricochet

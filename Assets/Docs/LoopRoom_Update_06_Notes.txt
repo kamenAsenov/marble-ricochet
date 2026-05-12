@@ -1,0 +1,34 @@
+
+LOOP ROOM — GAME FEEL UPDATE 06
+
+Цел:
+Да направи играта да се усеща по-завършена, без да rebuild-ваме красивата сцена от Update 05.
+
+Какво добавя:
+- Fade-to-black transition при правилен избор.
+- Movement lock по време на transition.
+- Center intro prompt:
+  LOOP ROOM
+  Memorize the corridor.
+- По-ясен feedback:
+  You continued.
+  You turned back.
+- По-добър loop flow:
+  правилен избор -> feedback -> fade -> нов loop.
+- Restart с R остава.
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай папката Assets върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) НЕ пускай Build MVP Scene.
+7) Вместо това пусни:
+   Tools > Loop Room > Apply Game Feel Update 06
+8) Натисни OK.
+9) Play.
+
+Важно:
+Този update е upgrade върху текущата сцена.
+Не rebuild-ва коридора.

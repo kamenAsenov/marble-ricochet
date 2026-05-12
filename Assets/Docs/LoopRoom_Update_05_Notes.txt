@@ -1,0 +1,69 @@
+
+LOOP ROOM — CINEMATIC VISUAL UPDATE 05
+
+Цел:
+Да направи vertical slice-а много по-красив и по-близък до истинска indie horror игра.
+
+Какво добавя:
+- Реални процедурно генерирани textures:
+  Assets/Textures/T_Wall_Plaster.png
+  Assets/Textures/T_Floor_Tiles.png
+  Assets/Textures/T_Carpet_Red.png
+  Assets/Textures/T_Wood_Dark.png
+  Assets/Textures/T_Dark_Noise.png
+
+- По-красив cinematic corridor:
+  textured plaster walls
+  textured floor tiles
+  red carpet runner
+  dark wood trims
+  richer doors
+  elevator at the end
+  elevator button glow
+  sconces
+  mirror
+  radiator
+  bench
+  side table
+  plant
+  pictures
+  fog
+
+- По-ясни и по-красиви anomalies:
+  EASY:
+  Red glowing cube
+  Blue ceiling light
+  Extra door near start
+  Huge plant
+  Elevator glowing red
+
+  MEDIUM:
+  Shadow by elevator
+  Bench in the middle
+  Floating mirror
+  Brass bar
+
+  HARD:
+  Dark elevator end
+  Tiny white block
+  Low hanging light
+  Thin shadow line
+
+- Difficulty curve остава:
+  Loop 1: normal
+  Loop 2-4: easy
+  Loop 5-9: medium
+  Loop 10+: hard
+
+Как се слага:
+1) Спри Play Mode.
+2) Разархивирай zip-а.
+3) Копирай папката Assets върху Assets папката на Unity проекта.
+4) Избери merge/replace.
+5) Изчакай Unity да компилира.
+6) Tools > Loop Room > Build MVP Scene
+7) Yes, build it
+8) Play
+
+Важно:
+Този update rebuild-ва сцената. Това е нормално.

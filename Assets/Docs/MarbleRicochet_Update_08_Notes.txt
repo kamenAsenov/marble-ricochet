@@ -1,0 +1,59 @@
+
+MARBLE RICOCHET — SOFT LAUNCH POLISH UPDATE 08
+
+Product stance:
+This update does NOT add random features.
+It improves first impression, onboarding, mobile readiness, UI feel, shop clarity and win flow.
+
+Critical analysis:
+
+1) What currently holds the game back:
+- First-time player clarity is still not strong enough.
+- UI works, but needs micro-interactions.
+- Win screen needs to push Next Level / Retry more clearly.
+- Shop exists, but needs better reward clarity.
+- Project needs mobile portrait settings before build testing.
+
+2) What must improve before App Store:
+- First 30 seconds.
+- First 3 tutorial levels.
+- Portrait/mobile readability.
+- Button feel.
+- Shop/reward clarity.
+- Soft-launch build settings.
+
+3) Features NOT added yet:
+- Real ad SDK.
+- Daily challenge.
+- Leaderboards.
+- Multiplayer.
+- More currencies.
+- More obstacles.
+
+4) Main improvements in Update 08:
+- Onboarding overlay for first 3 levels.
+- Button micro-animations.
+- Soft panel entrance animation.
+- Next level preview on win screen.
+- Shop/reward text polish.
+- Android/iOS portrait orientation settings.
+- Old RicochetPop builder remains disabled.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over your Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Soft Launch Polish Update 08
+7) OK.
+8) Play.
+
+What to test:
+- Main menu buttons scale slightly when pressed/hovered.
+- First 3 levels show onboarding helper text.
+- Win screen shows Next Level preview.
+- Shop still opens and rewards placeholder coins/hints.
+- Skins still buy/select.
+- Project orientation is set to portrait.
