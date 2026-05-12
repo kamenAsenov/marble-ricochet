@@ -54,3 +54,8 @@ Desktop.ini
 !Assets/
 !Packages/
 !ProjectSettings/
+
+Backup/
+.utmp/
+*.slnx
+UpgradeLog.htm
