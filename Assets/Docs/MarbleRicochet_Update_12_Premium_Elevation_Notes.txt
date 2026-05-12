@@ -1,0 +1,58 @@
+MARBLE RICOCHET — PREMIUM ELEVATION UPDATE 12
+
+Product goal:
+Move Marble Ricochet from working prototype toward premium casual puzzle soft-launch candidate.
+
+What still felt prototype-like:
+- Materials were functional but not premium enough.
+- The table needed stronger visual identity.
+- Glass breaking needed stronger reward feedback.
+- Shop/reward screens needed a more premium tone.
+
+What Update 12 includes:
+- Premium walnut table visual layer.
+- Gold inlay lines.
+- Premium rail visuals and gold rail lips.
+- Improved lighting group.
+- Better marble, glass, bumper and rail materials.
+- Stronger glass pop particle effect.
+- Win reward/title subtle pulse.
+- First 5 levels hint polish.
+- Shop copy polish.
+- App icon placeholder PNG.
+- No core gameplay changes.
+
+What it does NOT add:
+- No new currency.
+- No real ads SDK.
+- No multiplayer.
+- No leaderboard.
+- No daily challenge.
+- No new complex mechanics.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Premium Elevation Update 12
+7) OK.
+8) Play.
+
+What to test:
+1) Does the table look more premium?
+2) Are rails still clear?
+3) Do glass targets look better?
+4) Does glass break feel more satisfying?
+5) Does the win screen feel better?
+6) Does shop still work?
+7) Does Level 1 still teach clearly?
+8) Are there any Console errors?
+
+Git recommendation:
+This is a meaningful milestone update. If it works and you like it:
+git add .
+git commit -m "Apply update 12 premium elevation"
+git push
