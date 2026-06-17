@@ -14,30 +14,35 @@ public class RPShopManager : MonoBehaviour
 
     public RPProgressionManager progression;
     public RPGameManager gameManager;
+    public RPBallStatsManager ballStats;
     public GameObject shopPanel;
     public Text shopStatusText;
     public Text skinNameText;
     public Text skinPriceText;
     public Text adStatusText;
+    public Text ballStatsText;
 
     public SkinData[] skins =
     {
         new SkinData { id = 0, name = "Classic Marble", price = 0, color = new Color(0.94f, 0.92f, 0.84f) },
-        new SkinData { id = 1, name = "Gold Marble", price = 180, color = new Color(1.00f, 0.72f, 0.25f) },
-        new SkinData { id = 2, name = "Black Pearl", price = 320, color = new Color(0.08f, 0.07f, 0.065f) },
-        new SkinData { id = 3, name = "Ocean Glass", price = 520, color = new Color(0.20f, 0.85f, 1.00f) },
-        new SkinData { id = 4, name = "Ruby Core", price = 760, color = new Color(0.95f, 0.10f, 0.18f) }
+        new SkinData { id = 1, name = "Gold Marble", price = 220, color = new Color(1.00f, 0.72f, 0.25f) },
+        new SkinData { id = 2, name = "Heavy Marble", price = 340, color = new Color(0.08f, 0.07f, 0.065f) },
+        new SkinData { id = 3, name = "Rubber Marble", price = 520, color = new Color(0.20f, 0.85f, 1.00f) },
+        new SkinData { id = 4, name = "Glass Marble", price = 760, color = new Color(0.95f, 0.10f, 0.18f) }
     };
 
     private int previewIndex = 0;
 
     private void Start()
     {
+        ResolveReferences();
         Refresh();
     }
 
     public void OpenShop()
     {
+        ResolveReferences();
+
         if (shopPanel != null)
         {
             shopPanel.SetActive(true);
@@ -80,6 +85,8 @@ public class RPShopManager : MonoBehaviour
 
     public void BuyOrSelectCurrentSkin()
     {
+        ResolveReferences();
+
         if (progression == null || skins.Length == 0)
         {
             return;
@@ -106,6 +113,11 @@ public class RPShopManager : MonoBehaviour
             }
         }
 
+        if (ballStats != null)
+        {
+            ballStats.ApplySelectedBallStats();
+        }
+
         if (gameManager != null)
         {
             gameManager.ApplySelectedSkin();
@@ -117,6 +129,8 @@ public class RPShopManager : MonoBehaviour
 
     public void WatchAdForCoinsPlaceholder()
     {
+        ResolveReferences();
+
         if (progression != null)
         {
             progression.AddCoins(50);
@@ -137,6 +151,8 @@ public class RPShopManager : MonoBehaviour
 
     public void WatchAdForHintPlaceholder()
     {
+        ResolveReferences();
+
         if (progression != null)
         {
             progression.AddHintTokens(1);
@@ -157,6 +173,8 @@ public class RPShopManager : MonoBehaviour
 
     public Color GetSelectedSkinColor()
     {
+        ResolveReferences();
+
         if (progression == null || skins == null || skins.Length == 0)
         {
             return new Color(0.94f, 0.92f, 0.84f);
@@ -175,6 +193,8 @@ public class RPShopManager : MonoBehaviour
 
     private void Refresh()
     {
+        ResolveReferences();
+
         if (progression == null || skins == null || skins.Length == 0)
         {
             return;
@@ -205,6 +225,36 @@ public class RPShopManager : MonoBehaviour
         if (shopStatusText != null)
         {
             shopStatusText.text = "Coins: " + progression.totalCoins + "  •  Hints: " + progression.hintTokens;
+        }
+
+        if (ballStatsText != null)
+        {
+            if (ballStats != null)
+            {
+                ballStatsText.text = ballStats.GetShopStatLine(skin.id);
+            }
+            else
+            {
+                ballStatsText.text = "Ability: Balanced";
+            }
+        }
+    }
+
+    private void ResolveReferences()
+    {
+        if (progression == null)
+        {
+            progression = FindFirstObjectByType<RPProgressionManager>();
+        }
+
+        if (gameManager == null)
+        {
+            gameManager = FindFirstObjectByType<RPGameManager>();
+        }
+
+        if (ballStats == null)
+        {
+            ballStats = FindFirstObjectByType<RPBallStatsManager>();
         }
     }
 }

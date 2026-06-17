@@ -10,8 +10,15 @@ public class RPObstacle : MonoBehaviour
 
     public void OnBallHit(RPBulletBall ball)
     {
+        RPComboSkillManager combo = FindFirstObjectByType<RPComboSkillManager>();
+
         if (type == RPObstacleType.MetalBumper)
         {
+            if (combo != null)
+            {
+                combo.RegisterBumperHit();
+            }
+
             gameManager?.OnBumperHit();
             return;
         }
@@ -19,6 +26,11 @@ public class RPObstacle : MonoBehaviour
         if (type == RPObstacleType.BreakableGlass && !broken)
         {
             broken = true;
+
+            if (combo != null)
+            {
+                combo.RegisterGlassBreak();
+            }
 
             if (breakEffectPrefab != null)
             {

@@ -1,0 +1,101 @@
+
+MARBLE RICOCHET — HAZARDS + BALL ABILITIES UPDATE 14
+
+Goal:
+Make gameplay deeper by adding controlled risk, failure and meaningful ball choice.
+
+Brutal analysis:
+1) Fail state risk:
+Too much failure can kill casual flow.
+Solution: no lives, no energy, no punishment beyond retrying the current level.
+
+2) Ball ability risk:
+If expensive balls are simply better, the game becomes pay-to-win.
+Solution: each ball has trade-offs.
+
+3) How we avoid pay-to-win:
+Classic remains balanced and viable.
+Gold gives coin bonus, not easier wins.
+Heavy is safe but less bouncy.
+Rubber is high-combo but risky.
+Glass is fast but risky.
+
+4) How hazards are introduced:
+No holes in the first 10 levels.
+Level 11 introduces pockets.
+Level 16 introduces rotating blockers.
+Levels 18-20 mix hazards carefully.
+
+5) What we still do not add:
+No real ads SDK.
+No new currencies.
+No lives/energy.
+No multiplayer.
+No leaderboard.
+No daily challenge.
+
+What Update 14 adds:
+- Hole / pocket hazard.
+- Fail detection.
+- Fail screen.
+- Retry / Hint / Shop / Menu on fail.
+- Rotating obstacle hazard.
+- Hazard manager.
+- Ball stats manager.
+- Ball abilities based on selected marble.
+- Shop stats text.
+- HUD ability text.
+- Hazard tutorial hint.
+- Hazard placement from Level 11 onward.
+- Rotating blockers from Level 16 onward.
+- Gold coin bonus integration with skill bonus.
+
+Ball ability mapping:
+Classic Marble:
+Balanced power, bounce and control.
+
+Gold Marble:
+Balanced physics, +25% skill bonus coins.
+
+Heavy Marble:
+Slower, safer, less bounce, more control.
+
+Rubber Marble:
+Higher bounce, trick shot potential, risky near pockets.
+
+Glass Marble:
+Fast and sharp, powerful but risky.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Hazards Ball Abilities Update 14
+7) OK.
+8) Play.
+
+What to test:
+1) Levels 1-10 should still feel normal.
+2) Level 11 should show pocket/hole hazard.
+3) If the marble enters a hole, fail screen appears.
+4) Retry returns to the level.
+5) Hint button on fail works.
+6) Shop button on fail opens shop.
+7) Level 16 should introduce rotating obstacle.
+8) Different balls change feel:
+   Heavy = more controlled.
+   Rubber = more bouncy.
+   Glass = faster.
+   Gold = skill coin bonus.
+9) Shop shows ball ability stats.
+10) No console errors.
+
+Git:
+This is a major gameplay milestone.
+If it works and feels good, commit:
+git add .
+git commit -m "Apply update 14 hazards and ball abilities"
+git push

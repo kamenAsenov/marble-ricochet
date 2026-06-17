@@ -1,0 +1,80 @@
+
+MARBLE RICOCHET — RADICAL COMBO UPDATE 13
+
+Product goal:
+Stop polishing the same loop and add a real skill/reward layer.
+
+Brutally honest analysis:
+1) Why would a player delete the game after 2–3 minutes?
+Because the old loop was too flat:
+shoot -> break glass -> next.
+It lacked skill recognition.
+
+2) What was shallow?
+The game did not clearly reward a great shot differently from an average shot.
+
+3) What was missing for "one more level"?
+Score breakdown, combo language, bank shot recognition, and skill bonus coins.
+
+4) What can make it memorable?
+The feeling:
+bank shot -> glass break -> combo text -> bonus -> next level.
+
+5) What changes radically without replacing the project?
+Add a skill-shot layer on top of the existing physics.
+
+Update 13 chosen direction:
+A + light B:
+Skill-shot puzzle direction with satisfying toy-like feedback.
+
+What this update adds:
+- Skill combo manager.
+- Bank Shot detection.
+- Double Bank / Trick Route detection.
+- Glass Break / Bank Break / Combo xN text.
+- Bumper Boost text.
+- Skill score.
+- Best combo.
+- Bank shot count.
+- Skill bonus coins.
+- Level objective intro panel.
+- Chapter labels for early campaign feel.
+- Score breakdown on win screen.
+- Campaign tagline on main menu.
+- Improved win layout to make room for skill breakdown.
+
+What this update does NOT add:
+- No new currency.
+- No real ads SDK.
+- No multiplayer.
+- No leaderboard.
+- No daily challenge.
+- No genre change.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Radical Combo Update 13
+7) OK.
+8) Play.
+
+What to test:
+1) Level objective panel appears when level starts.
+2) Bank Shot text appears after bouncing off rails.
+3) Glass Break / Combo x2 appears when breaking glass.
+4) Bumper Boost appears after bumper hit.
+5) Win screen shows skill score breakdown.
+6) Bonus coins are added.
+7) Shop still works.
+8) No console errors.
+
+Git:
+This is a meaningful milestone.
+Commit after testing if it works:
+git add .
+git commit -m "Apply update 13 radical combo layer"
+git push

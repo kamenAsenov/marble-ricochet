@@ -1,0 +1,26 @@
+
+MARBLE RICOCHET — UPDATE 14A TORUS FIX
+
+Fixes:
+Assets/Editor/MarbleRicochetHazardsBallAbilitiesUpdate14Applier.cs:
+error CS0117: 'PrimitiveType' does not contain a definition for 'Torus'
+
+Cause:
+Unity does not include PrimitiveType.Torus as a built-in primitive.
+
+What this fix does:
+- Replaces the torus pocket rim with a safe visual rim built from cubes and small spheres.
+- Keeps the pocket / hole gameplay.
+- Keeps fail screen, rotating obstacle and ball abilities from Update 14.
+- Does not change the install flow.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip this fix.
+3) Copy Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Hazards Ball Abilities Update 14
+7) OK.
+8) Play.

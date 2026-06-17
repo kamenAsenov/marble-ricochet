@@ -1,0 +1,3 @@
+SELF QA RESULT
+PASS
+No obvious static packaging issues found.

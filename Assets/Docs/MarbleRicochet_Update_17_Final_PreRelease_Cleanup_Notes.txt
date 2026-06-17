@@ -1,0 +1,84 @@
+MARBLE RICOCHET — FINAL PRE-RELEASE CLEANUP UPDATE 17
+
+Purpose:
+This is not another recolor. It is a release-candidate cleanup pass focused on removing visual noise, fixing UI overlap risk, simplifying pockets, and making the whole game feel calmer and more premium.
+
+Brutally honest analysis:
+Top problems before this update:
+1) Orange/yellow board lines created a wireframe/prototype look.
+2) Decorative board details competed with the ball, targets and hazards.
+3) Objective text, hazard text and ball ability text fought for the same top-screen space.
+4) Fail screen was not opaque/clean enough, so gameplay text could visually bleed behind it.
+5) Pockets looked overdesigned for a simple casual puzzle game.
+6) UI buttons were too loud and too brown/orange.
+7) Too many visual systems from previous updates were layered on top of each other.
+8) The board lacked restraint.
+9) Mobile readability was not strict enough.
+10) Screens were not yet screenshot-ready for a store listing.
+
+What Update 17 removes/simplifies:
+- Removes previous decorative table roots.
+- Aggressively removes orange/yellow line objects created by older updates.
+- Removes full-board grid/guide lines.
+- Suppresses duplicate hazard hint text.
+- Suppresses ball ability HUD text to reduce clutter.
+- Replaces fancy pockets with a single simple black pocket visual.
+- Removes bright brass/cyan board ornaments from the playfield.
+
+What Update 17 adds:
+- Minimal slate/graphite board.
+- No decorative grid.
+- Simple dark rails.
+- Neutral subtle edge, not orange/yellow.
+- Simple black pocket prefab.
+- Simple dark rotating obstacle prefab.
+- Opaque fail/win/menu/shop panels.
+- Card-based screen treatment.
+- Cleaner button styling.
+- Cleaner top objective panel.
+- Runtime UI hardener that keeps secondary hint clutter suppressed and keeps fail overlay above gameplay.
+
+Self-QA performed logically before delivery:
+- No PrimitiveType.Torus usage.
+- No real ads SDK added.
+- No new currency added.
+- No multiplayer/daily challenge/feature creep.
+- Editor-only script is under Assets/Editor.
+- Runtime hardener is small and only handles UI cleanup/noise suppression.
+- Existing gameplay manager references are preserved.
+- Hole and rotator prefabs are recreated safely.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Final Pre-Release Cleanup Update 17
+7) OK.
+8) Play.
+
+Manual QA checklist:
+1) Console has no red errors.
+2) Main menu has no overlapping text.
+3) HUD has no Ball Ability text clutter.
+4) Objective text appears alone and does not overlap hazard text.
+5) Level 11 has no orange/yellow board grid.
+6) Pockets are simple black circles, not fancy rims.
+7) Fail screen fully covers distracting gameplay text behind it.
+8) Retry works after falling into a pocket.
+9) Shop opens and buttons still work.
+10) Win screen shows without overlap.
+11) Rotating obstacle still appears after level 16.
+12) Build Android again after testing.
+
+Git recommendation:
+If it compiles and you prefer the clean direction, commit immediately:
+
+git add .
+git commit -m "Apply update 17 final prerelease cleanup"
+git push
+
+Launch honesty:
+After this update, the game can be close to a Google Play internal test candidate, not necessarily final production. Before public launch, still do: final Android build/AAB, real-device QA, screenshots, icon, store listing text, privacy/data safety checks, and tester feedback pass.

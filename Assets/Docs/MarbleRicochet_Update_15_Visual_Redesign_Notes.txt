@@ -1,0 +1,100 @@
+MARBLE RICOCHET — VISUAL REDESIGN UPDATE 15
+
+Chosen art direction:
+Graphite Luxury Tabletop.
+
+Palette:
+- void black / deep graphite background
+- smoked graphite playing surface
+- matte black rubber rails
+- brushed brass accents
+- icy cyan gameplay/glass accents
+- ruby hazard accents
+
+Why this direction:
+It removes the cheap brown / childish table feel while keeping the game readable. It is more premium than cartoon wood, less risky than full neon sci-fi, and more visually attractive on mobile screenshots.
+
+Brutal visual analysis:
+1) What made it look prototype-like:
+- Too much muddy brown.
+- Table looked like stacked primitive shapes.
+- Some colors felt added feature-by-feature, not art-directed.
+- UI panels and table materials were not part of one visual system.
+
+2) What was pulling it down:
+- Brown surface lacked realism and taste.
+- Gold/cyan/hazard colors were not consistently balanced.
+- Lighting was functional but not cinematic enough.
+
+3) What felt childish:
+- Table color and object contrast felt toy-like.
+- Rails and surface did not feel like premium materials.
+- UI buttons felt generic.
+
+4) What was missing:
+- A cohesive color palette.
+- Clear material roles.
+- Visual hierarchy: table subdued, gameplay accents bright, hazards distinct.
+
+5) What not to do:
+- No clown colors.
+- No neon overload.
+- No everything-brown look.
+- No visual clutter.
+- No sacrificing readability for beauty.
+
+Three directions considered:
+A) Premium modern tabletop:
+Graphite/smoked surface, brass accents, icy glass. High readability, strong App Store look, low performance risk.
+
+B) Futuristic luxury puzzle:
+Gunmetal and neon cyan. Very crisp but risk of cheap neon overload if pushed too far.
+
+C) Minimal stone/marble:
+Slate and marble gallery look. Elegant but could become too cold and less readable.
+
+Selected:
+A, with a controlled touch of B — Graphite Luxury Tabletop.
+
+What Update 15 applies:
+- New graphite table visual layer.
+- Removed older brown/premium table visual roots.
+- New smoked graphite materials.
+- Matte black rails.
+- Brushed brass accents.
+- Icy cyan gameplay guide accents.
+- Ruby hazard ring direction.
+- Better dark background/ambience.
+- Better lighting setup.
+- Better UI panel colors.
+- Better button colors/outlines.
+- Better text color hierarchy.
+- Updated hazard prefab visuals if Update 14 is installed.
+- Updated app icon direction note.
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over the Unity project's Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Visual Redesign Update 15
+7) OK.
+8) Play.
+
+What to test:
+1) Does the table no longer look cheap brown?
+2) Does it feel more premium and realistic?
+3) Are rails still clear?
+4) Are holes/hazards readable?
+5) Is the UI cleaner and more consistent?
+6) Are glass targets still visible?
+7) Is the game readable on phone?
+8) Any Console errors?
+
+Git:
+This is a major visual milestone. If it works and you like the direction:
+git add .
+git commit -m "Apply update 15 visual redesign"
+git push

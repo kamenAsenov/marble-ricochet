@@ -1,0 +1,72 @@
+
+MARBLE RICOCHET — VISUAL CLEANUP UPDATE 16
+
+Brutally critical visual analysis:
+1) The biggest visual problem was not “lack of polish”, but visual noise.
+   The warm yellow/orange lines across the whole board made the game feel like a wireframe prototype.
+   Too many bright lines meant the eye noticed the board decoration more than the gameplay objects.
+
+2) Why it still didn’t feel premium:
+   - The brown/warm board language still leaked through.
+   - Too much line detail for a mobile screen.
+   - UI hierarchy was messy: hints, ability text, hazard hint and fail text all competed.
+   - The fail overlay still felt flat and blocky instead of clean and premium.
+
+3) What changed in Update 16:
+   - Removed the full-board line noise.
+   - Replaced it with a clean graphite playfield and premium frame-led design.
+   - Kept only minimal launch guidance near the bottom.
+   - Improved panel/card styling and button styling.
+   - Tidied text placement and reduced top-of-screen clutter.
+   - Refined hazard visuals to feel cleaner and more elegant.
+
+Visual direction:
+Minimal premium tabletop.
+Palette:
+- matte black
+- soft graphite
+- satin brass
+- subtle cyan accents
+- muted ruby hazards
+
+Why this is better:
+This follows strong dark-theme principles: limited accents, clear hierarchy, good contrast, and fewer competing colors. Android’s design guidance recommends consistent color roles and avoiding too many mixed colors in one view. Apple’s HIG for color/dark appearances also emphasizes adaptive color and good contrast. Unity’s mobile optimization guidance favors simple shader/material setups over overly expensive effects. Relevant references include Android color guidance, Apple HIG color/dark mode, and Unity mobile optimization docs.【turn581327search22】【turn581327search8】【turn581327search24】
+
+What Update 16 includes:
+- cleaner premium table
+- no annoying full-board yellow/orange lines
+- minimal launch guide only
+- smoother premium frame
+- refined ambient lighting
+- cleaner fail/menu/shop/win panels with dark cards
+- cleaner buttons and text hierarchy
+- tidier top HUD placement
+- refreshed hazard prefab visuals
+
+How to install:
+1) Stop Play Mode.
+2) Unzip package.
+3) Copy Assets folder over the Unity project Assets folder.
+4) Choose merge/replace.
+5) Wait for Unity to compile.
+6) Run:
+   Tools > Marble Ricochet > Apply Visual Cleanup Update 16
+7) OK.
+8) Play.
+
+What to test:
+1) The table should no longer have bright line noise everywhere.
+2) The board should feel calmer, smoother and more premium.
+3) Rails should still read clearly.
+4) The launch area should still be understandable.
+5) Hazard elements should still be readable.
+6) Fail/menu/shop/win screens should feel cleaner.
+7) Text overlap/clutter should be reduced.
+8) No console errors.
+
+Git:
+This is a meaningful art-direction correction. If it works and you prefer it, it is worth a commit:
+
+git add .
+git commit -m "Apply update 16 visual cleanup"
+git push

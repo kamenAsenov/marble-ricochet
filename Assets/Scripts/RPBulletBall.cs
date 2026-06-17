@@ -47,6 +47,23 @@ public class RPBulletBall : MonoBehaviour
         {
             obstacle.OnBallHit(this);
         }
+
+        string objName = collision.collider.gameObject.name.ToLowerInvariant();
+
+        if (
+            objName.Contains("rail") ||
+            objName.Contains("wall") ||
+            objName.Contains("bounce") ||
+            objName.Contains("normalwall")
+        )
+        {
+            RPComboSkillManager combo = FindFirstObjectByType<RPComboSkillManager>();
+
+            if (combo != null)
+            {
+                combo.RegisterRailBounce();
+            }
+        }
     }
 
     public void SetGameManager(RPGameManager manager)

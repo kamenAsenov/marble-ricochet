@@ -23,6 +23,13 @@ public class RPTarget : MonoBehaviour
 
         if (ball != null && gameManager != null)
         {
+            RPComboSkillManager combo = FindFirstObjectByType<RPComboSkillManager>();
+
+            if (combo != null)
+            {
+                combo.RegisterGlassBreak();
+            }
+
             gameManager.OnTargetHit(this);
         }
     }
